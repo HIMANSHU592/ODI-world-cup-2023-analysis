@@ -8,6 +8,7 @@ GROUP BY batting,country
 ORDER BY total_runs DESC limit 10;
 
 #Top 10 highest wickettaker bowler
+
 SELECT 
     bowling, bowling_team, SUM(wickets) AS wickets
 FROM
